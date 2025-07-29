@@ -3,7 +3,7 @@ pipeline{
     agent any  // here any = current available ec2 server where jenkins is installed
     
     tools{
-        maven 'mymaven'
+        maven 'maven-3.8.7'
     
     }
     
